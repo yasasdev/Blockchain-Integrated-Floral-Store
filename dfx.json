@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "flowersales_final_backend": {
+      "main": "src/flowersales_final_backend/main.mo",
+      "type": "motoko"
+    },
+    "flowersales_final_frontend": {
+      "dependencies": [
+        "flowersales_final_backend"
+      ],
+      "source": [
+        "src/flowersales_final_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "flowersales_final_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
