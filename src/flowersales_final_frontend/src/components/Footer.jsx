@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="footer">
+    <footer className="footer custom-footer">
       <div className="footer-container">
         <div className="footer-brand">
           <h2>Flora Luxe</h2>
