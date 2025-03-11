@@ -8,25 +8,25 @@ const products = [
     id: 1,
     name: 'Red Roses Bouquet',
     price: 29.99,
-    image: 'https://source.unsplash.com/400x300/?rose'
+    image: '../public/images/01.jpg'
   },
   {
     id: 2,
     name: 'Sunflower Bundle',
     price: 19.99,
-    image: 'https://source.unsplash.com/400x300/?sunflower'
+    image: '../public/images/f1.png'
   },
   {
     id: 3,
     name: 'White Lily Bouquet',
     price: 24.99,
-    image: 'https://source.unsplash.com/400x300/?lily'
+    image: '../public/images/f2.png'
   },
   {
     id: 4,
     name: 'Mixed Flowers',
     price: 34.99,
-    image: 'https://source.unsplash.com/400x300/?flower'
+    image: '../public/images/f3.png'
   }
 ];
 

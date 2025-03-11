@@ -8,7 +8,7 @@
 /* Header styles */
 .header {
     width: 100%;
-    background-color: #FFD1DC; /* Light green background */
+    background-color: #FFD1DC; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
@@ -204,7 +204,7 @@
 }
   
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
 }
   
 .card-image {
@@ -250,7 +250,7 @@
 .hero-section {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(90deg, #ff4d4d, #ff8080);
+    background: linear-gradient(90deg, #FFD1DC, #FFB6C1); /* Soft pink shades */
     color: white;
 }
   
