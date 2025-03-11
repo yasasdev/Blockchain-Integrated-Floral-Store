@@ -243,3 +243,47 @@
     background-color: #e03e3e;
 }
 
+.home-page {
+    background-color: #fafafa;
+}
+  
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(90deg, #ff4d4d, #ff8080);
+    color: white;
+}
+  
+.hero-section h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+  
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+  
+.shop-now-btn {
+    background-color: white;
+    color: #ff4d4d;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+.shop-now-btn:hover {
+    background-color: #ffe6e6;
+}
+  
+.products-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+  
