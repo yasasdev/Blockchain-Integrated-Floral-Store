@@ -14,19 +14,19 @@ const products = [
     id: 2,
     name: 'Sunflower Bundle',
     price: 19.99,
-    image: '../public/images/f1.png'
+    image: '../public/images/02.jpg'
   },
   {
     id: 3,
     name: 'White Lily Bouquet',
     price: 24.99,
-    image: '../public/images/f2.png'
+    image: '../public/images/03.jpg'
   },
   {
     id: 4,
     name: 'Mixed Flowers',
     price: 34.99,
-    image: '../public/images/f3.png'
+    image: '../public/images/04.jpg'
   }
 ];
 
