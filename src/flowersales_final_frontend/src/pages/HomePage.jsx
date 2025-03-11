@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
+import AboutPage from './AboutPage';
 
 const products = [
   {
@@ -41,6 +42,9 @@ const HomePage = () => {
           <p className="para">Brighten your day with beautiful flowers!</p>
           <button className="shop-now-btn">Shop Now</button>
         </div>
+
+        {/* About Section */}
+        <AboutPage />
 
         {/* Products Section */}
         <div className="products-section">
