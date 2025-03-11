@@ -251,7 +251,7 @@
     text-align: center;
     padding: 60px 20px;
     background: linear-gradient(90deg, #FFD1DC, #FFB6C1); /* Soft pink shades */
-    color: white;
+    color: #679ac4;
 }
   
 .hero-section h1 {
@@ -263,21 +263,27 @@
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+.para {
+    font-style: italic;
+}
   
 .shop-now-btn {
-    background-color: white;
-    color: #ff4d4d;
+    background-color: #679ac4;
+    color: #fff;
     padding: 12px 24px;
     border: none;
     border-radius: 24px;
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
   
 .shop-now-btn:hover {
-    background-color: #ffe6e6;
+    background-color: #336894;
+    box-shadow: 0 0 15px rgba(66, 91, 110, 0.7); /* Glowing effect */
 }
+
   
 .products-section {
     display: flex;

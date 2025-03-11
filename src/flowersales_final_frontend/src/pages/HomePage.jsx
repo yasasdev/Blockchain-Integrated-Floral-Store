@@ -38,7 +38,7 @@ const HomePage = () => {
         {/* Hero Section */}
         <div className="hero-section">
           <h1>Fresh Flowers Delivered to You</h1>
-          <p>Brighten your day with beautiful flowers!</p>
+          <p className="para">Brighten your day with beautiful flowers!</p>
           <button className="shop-now-btn">Shop Now</button>
         </div>
 
