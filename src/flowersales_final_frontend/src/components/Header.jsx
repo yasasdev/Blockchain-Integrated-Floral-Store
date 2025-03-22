@@ -1,27 +1,33 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const navigate = useNavigate();
   
     // Function to toggle mobile menu
     const toggleMobileMenu = () => {
       setMobileMenuOpen(!mobileMenuOpen);
+    };
+
+    const navigateToHome = () => {
+      navigate('/'); // Navigates to the home page
     };
   
     return (
       <header className="header">
         <div className="container">
           {/* Main logo/title area */}
-          <div className="logo-container">
+          <div className="logo-container" onClick={() => navigate('/')}>
             <h1 className="logo-text">Flora Luxe.</h1>
           </div>
           
           {/* Navigation section */}
           <nav className={`navigation ${mobileMenuOpen ? 'mobile-open' : ''}`}>
-            <a href="#" className="nav-link">Home</a>
-            <a href="#" className="nav-link">Products</a>
-            <a href="#" className="nav-link">About</a>
-            <a href="#" className="nav-link">Contact</a>
+            <a href="/" className="nav-link">Home</a>
+            <a href="/products" className="nav-link">Products</a>
+            <a href="/about" className="nav-link">About</a>
+            <a href="/contact" className="nav-link">Contact</a>
           </nav>
           
           {/* Mobile menu button (hamburger icon) */}
