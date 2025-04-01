@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import HomePage from '../pages/HomePage';
 import AdminPortal from '../pages/AdminPortal';
 import Product from '../pages/Product';
+import LoginPage from '../pages/LoginPage';
 
 function App() {
     return(
@@ -13,7 +14,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
 
                 {/* Admin Route */}
-                <Route path="/admin" element={<AdminPortal />} />
+                <Route path="/admin" element={<LoginPage />} />
 
                 {/* Products Route */}
                 <Route path="/products" element={<Product />} />
