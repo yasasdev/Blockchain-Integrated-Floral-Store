@@ -1,0 +1,45 @@
+.home-page {
+    background-color: #fafafa;
+}
+  
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(
+        to bottom, 
+        #FFD1DC, 
+        #f3b6bf, 
+        rgba(255, 255, 255, 0.5)
+    );
+    color: #679ac4;
+}
+  
+.hero-section h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+  
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-style: italic;
+}
+  
+.shop-now-btn {
+    background-color: #679ac4;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.shop-now-btn:hover {
+    background-color: #336894;
+    box-shadow: 0 0 15px rgba(66, 91, 110, 0.7); /* Glowing effect */
+}

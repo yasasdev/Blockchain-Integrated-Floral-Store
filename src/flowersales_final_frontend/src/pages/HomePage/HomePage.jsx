@@ -1,9 +1,10 @@
 import { useNavigate } from 'react-router-dom';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Card from '../components/Card';
-import AboutPage from './AboutPage';
-import ImageSlider from '../components/ImageSlider'; 
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import Card from '../../components/Card';
+import AboutPage from '../AboutPage/AboutPage';
+import ImageSlider from '../../components/ImageSlider/ImageSlider'; 
+import './HomePage.css';
 
 const HomePage = () => {
   const navigate = useNavigate();

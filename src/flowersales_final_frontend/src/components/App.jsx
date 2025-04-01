@@ -1,9 +1,8 @@
 import { flowersales_final_backend } from 'declarations/flowersales_final_backend';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
-import AdminPortal from '../pages/AdminPortal';
-import Product from '../pages/Product';
-import LoginPage from '../pages/LoginPage';
+import HomePage from '../pages/HomePage/HomePage';
+import Product from '../pages/ProductPage/Product';
+import LoginPage from '../pages/LoginPage/LoginPage';
 
 function App() {
     return(
